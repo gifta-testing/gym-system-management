@@ -8,15 +8,25 @@ This project demonstrates various SQL concepts including DDL, DML, DQL, Joins, S
 FEATURES
 
 • Member Management
+
 • Membership Plan Management
+
 • Trainer Management
+
 • Member Subscription Management
+
 • Attendance Tracking
+
 • Workout Plan Management
+
 • Payment Management
+
 • Feedback Management
+
 • Revenue Calculation
+
 • Duplicate Subscription Prevention
+
 • Automated Membership Status Updates
 
 TECHNOLOGIES USED
