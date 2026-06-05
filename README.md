@@ -20,24 +20,38 @@ FEATURES
 • Automated Membership Status Updates
 
 TECHNOLOGIES USED
-┌───────────────┬─────────────────────────┐
-│ Technology    │ Description             │
-├───────────────┼─────────────────────────┤
-│ MySQL         │ Database System         │
-│ SQL           │ Query Language          │
-│ Workbench     │ Query Execution         │
-└───────────────┴─────────────────────────┘
+
+Technology	Description
+
+MySQL	Database Management System
+
+SQL	Query Language
+
+MySQL Workbench	Database Design & Query Execution
 
 DATABASE TABLES
-┌──────────────────────┬───────────────────────┐
-│ Table Name           │ Description           │
-├──────────────────────┼───────────────────────┤
-│ Members              │ Member Details        │
-│ Membership_Plans     │ Plan Details          │
-│ Trainers             │ Trainer Details       │
-│ Attendance           │ Attendance Records    │
-│ Payments             │ Payment Records       │
-└──────────────────────┴───────────────────────┘
+
+Table Name	Description
+
+Members	Stores member information
+
+Membership_Plans	Stores membership plan details
+
+Member_Subscriptions	Stores subscription records
+
+Trainers	Stores trainer information
+
+Member_Trainers	Stores member-trainer assignments
+
+Attendance	Stores attendance records
+
+Payments	Stores payment information
+
+Workout_Plans	Stores workout plan details
+
+Member_Workouts	Stores member workout assignments
+
+Feedback	Stores member feedback and ratings
 
 ENTITY RELATIONSHIP HIGHLIGHTS
 
@@ -54,46 +68,43 @@ ENTITY RELATIONSHIP HIGHLIGHTS
 
 SQL CONCEPTS USED
 
-┌──────────────────────┬───────────────────────────────────────────┐
-│ SQL Concept          │ Description                               │
-├──────────────────────┼───────────────────────────────────────────┤
-│ DDL Commands         │ CREATE, ALTER, DROP                       │
-├──────────────────────┼───────────────────────────────────────────┤
-│ DML Commands         │ INSERT, UPDATE, DELETE                    │
-├──────────────────────┼───────────────────────────────────────────┤
-│ DQL Commands         │ SELECT Queries                            │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Constraints          │ PRIMARY KEY, FOREIGN KEY                  │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Joins                │ INNER JOIN, LEFT JOIN, RIGHT JOIN,        │
-│                      │ CROSS JOIN                                │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Aggregate Functions  │ COUNT(), SUM(), AVG(), MAX(), MIN()       │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Group By             │ Grouping records for analysis             │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Having Clause        │ Filtering grouped data                    │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Order By             │ Sorting records                           │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Like Operator        │ Pattern matching searches                 │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Limit & Offset       │ Pagination and record limiting            │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Subqueries           │ Single Row, Multi Row, Correlated, Scalar │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Views                │ Virtual tables for reports                │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Stored Procedures    │ Reusable SQL programs                     │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Triggers             │ Automated database actions                │
-├──────────────────────┼───────────────────────────────────────────┤
-│ Window Functions     │ RANK(), DENSE_RANK(), ROW_NUMBER()        │
-├──────────────────────┼───────────────────────────────────────────┤
-│ TCL Commands         │ COMMIT, ROLLBACK, SAVEPOINT               │
-├──────────────────────┼───────────────────────────────────────────┤
-│ DCL Commands         │ GRANT, REVOKE                             │
-└──────────────────────┴───────────────────────────────────────────┘
+SQL Concept	Description
+
+DDL Commands	CREATE, ALTER, DROP
+
+DML Commands	INSERT, UPDATE, DELETE
+
+DQL Commands	SELECT Queries
+
+Constraints	PRIMARY KEY, FOREIGN KEY
+
+Joins	INNER JOIN, LEFT JOIN, RIGHT JOIN, CROSS JOIN
+
+Aggregate Functions	COUNT(), SUM(), AVG(), MAX(), MIN()
+
+Group By	Grouping records for analysis
+
+Having Clause	Filtering grouped data
+
+Order By	Sorting records
+
+Like Operator	Pattern matching searches
+
+Limit & Offset	Pagination and record limiting
+
+Subqueries	Single Row, Multi Row, Correlated, Scalar
+
+Views	Virtual tables for reports
+
+Stored Procedures	Reusable SQL programs
+
+Triggers	Automated database actions
+
+Window Functions	RANK(), DENSE_RANK(), ROW_NUMBER()
+
+TCL Commands	COMMIT, ROLLBACK, SAVEPOINT
+
+DCL Commands	GRANT, REVOKE
 
 SAMPLE ANALYTICAL QUERIES
 
@@ -136,6 +147,7 @@ PROJECT OBJECTIVES
 LEARNING OUTCOMES
 
 This project helped in improving:
+
 • SQL Query Writing
 • Database Design
 • Joins and Subqueries
@@ -148,6 +160,7 @@ This project helped in improving:
 FUTURE ENHANCEMENTS
 
 This project can be enhanced by:
+
 • Online Membership Registration
 • Mobile Application Integration
 • Automated Diet Plan Recommendations
